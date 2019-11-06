@@ -351,6 +351,8 @@ public class SmartTabLayout extends HorizontalScrollView {
     textView.setTextColor(tabViewTextColors);
     textView.setTextSize(TypedValue.COMPLEX_UNIT_PX, tabViewTextSize);
     textView.setTypeface(Typeface.DEFAULT_BOLD);
+    textView.setFocusable(true);
+    textView.setFocusableInTouchMode(true);
     textView.setLayoutParams(new LinearLayout.LayoutParams(
         LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.MATCH_PARENT));
 
