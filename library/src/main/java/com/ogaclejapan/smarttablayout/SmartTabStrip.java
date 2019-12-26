@@ -82,7 +82,7 @@ class SmartTabStrip extends LinearLayout {
   private SmartTabIndicationInterpolator indicationInterpolator;
   private SmartTabLayout.TabColorizer customTabColorizer;
 
-  SmartTabStrip(Context context, AttributeSet attrs) {
+  public SmartTabStrip(Context context, AttributeSet attrs) {
     super(context);
     setWillNotDraw(false);
 
